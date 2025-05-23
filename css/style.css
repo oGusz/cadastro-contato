@@ -1,0 +1,63 @@
+body {
+  position: relative;
+  height: 100%;
+}
+
+/* header */
+
+.bg-primary-color {
+  background-color: #007bff;
+
+}
+
+.header-mvc {
+  padding: 1rem;
+}
+
+.logo figure {
+  aspect-ratio: 17 / 2;
+}
+
+.logo figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.navbar-nav .nav-link {
+  color: white;
+  margin-left: 1rem;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #d1d1d1;
+}
+
+/* end header */
+
+
+/* footer */
+
+.footer-layout {
+
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.footer-layout p {
+  text-align: center;
+}
+
+@media (max-width: 991.98px) {
+  .navbar {
+    justify-content: center;
+  }
+  .logo figure img {
+    aspect-ratio: auto;
+    max-width: 200px;
+
+  }
+}
+
+
+/* end footer */
